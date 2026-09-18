@@ -7,6 +7,7 @@ import Home from './components/Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Form from './components/Form.jsx'
 import List from './components/List.jsx'
+import EditProduct from './components/EditProduct.jsx'
 
  const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ import List from './components/List.jsx'
       {
         path:'list',
         Component:List
+      },
+      {
+        path:'products/:productId/edit',
+        Component: EditProduct
       }
     ]
   }
