@@ -1,0 +1,43 @@
+/* .container{
+    width: 80vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.card{
+    flex: 1;
+    min-width: 250px;
+    margin-bottom: 30px; 
+} */
+
+
+/* 1. The Container */
+.container {
+  display: grid;
+  /* Automatically wraps cards and fractions the space equally */
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+/* 2. The Card */
+.card{
+  /* Forces internal content to stack vertically and stretch to fill the grid cell */
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  
+  /* Minimal aesthetic styling */
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.card-buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}

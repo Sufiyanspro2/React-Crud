@@ -1,13 +1,6 @@
 {
   "products": [
     {
-      "title": "e",
-      "price": "0342",
-      "iamge": "",
-      "desc": "",
-      "id": "GBbeJcvPr-0"
-    },
-    {
       "title": "suzuki gs 150",
       "price": "80000",
       "desc": "suzuzki bike\n",
@@ -27,6 +20,34 @@
       "desc": "",
       "image": "https://media.licdn.com/dms/image/v2/D4D03AQEDRYfupr7Fcw/profile-displayphoto-scale_400_400/B4DZ5TnQtCKAAg-/0/1779519265408?e=1791417600&v=beta&t=94Fd8p5vsAoFsTNY4K5nI2DARkMYciJJ7FwFJYndn0U",
       "id": "JHFIRlFIaLI"
+    },
+    {
+      "title": "hello",
+      "price": 0,
+      "desc": "\n",
+      "image": "",
+      "id": "x-Z-nEkWNPE"
+    },
+    {
+      "title": "hi",
+      "price": 0,
+      "desc": "",
+      "image": "",
+      "id": "kOB96L3miSA"
+    },
+    {
+      "title": "new",
+      "price": 0,
+      "desc": "",
+      "image": "",
+      "id": "mp_Cip3D_gM"
+    },
+    {
+      "title": "Sufiyan King",
+      "price": 0,
+      "desc": "",
+      "image": "",
+      "id": "8ubywOZSO38"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

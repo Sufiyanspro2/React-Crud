@@ -6,8 +6,7 @@ import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Form from './components/Form.jsx'
-import List from './components/List.jsx'
-import EditProduct from './components/EditProduct.jsx'
+import Update from './components/Update.jsx'
 
  const router = createBrowserRouter([
   {
@@ -23,12 +22,8 @@ import EditProduct from './components/EditProduct.jsx'
         Component: Form
       },
       {
-        path:'list',
-        Component:List
-      },
-      {
-        path:'products/:productId/edit',
-        Component: EditProduct
+        path:'update/:Id',
+        Component: Update
       }
     ]
   }
