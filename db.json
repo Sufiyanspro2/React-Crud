@@ -41,13 +41,6 @@
       "desc": "",
       "image": "",
       "id": "mp_Cip3D_gM"
-    },
-    {
-      "title": "Sufiyan King",
-      "price": 0,
-      "desc": "",
-      "image": "",
-      "id": "8ubywOZSO38"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
