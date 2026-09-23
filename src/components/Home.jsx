@@ -39,13 +39,14 @@ const Home = () => {
       <div className="card" key={product.id}>
             <img className="card-img" src={product.image || "https://media.istockphoto.com/id/2173059563/vector/coming-soon-image-on-white-background-no-photo-available.jpg?s=612x612&w=0&k=20&c=v0a_B58wPFNDPULSiw_BmPyhSNCyrP_d17i2BPPyDTk="} alt={product.title} />
             <div className="card-body">
-              <h5 className="card-title">{product.title}</h5>
-              <h3 className="card-title">{product.price}</h3>
+              <h2 className="card-title fs-4">{product.title}</h2>
+              <h3 className="card-title fs-5">{"Rs " + product.price}</h3>
             </div>
             <div className="card-buttons">
               {/* <Link to={`update/${product.id}`} className="btn btn-primary">Edit</Link>
               <Link to='/' className="btn btn-secondary">back</Link> */}
               <Link to={`update/${product.id}`} className='btn btn-primary'>Edit</Link>
+              <Link className='btn btn-info' to={`read/${product.id}`}>Detail</Link>
               <Link className='btn btn-danger' onClick={()=>handleDelete(product.id)}>Delete</Link>
             </div>
           </div>

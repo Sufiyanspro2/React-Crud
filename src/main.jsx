@@ -7,6 +7,7 @@ import Home from './components/Home.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router'
 import Form from './components/Form.jsx'
 import Update from './components/Update.jsx'
+import Read from './components/Read.jsx'
 
  const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ import Update from './components/Update.jsx'
       {
         path:'update/:Id',
         Component: Update
+      },
+      {
+        path: 'read/:Id',
+        Component: Read
       }
     ]
   }
